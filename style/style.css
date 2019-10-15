@@ -1,0 +1,87 @@
+.abstand
+{
+    padding: 20px;
+}
+
+.text-large
+{
+    font-size: 18px;
+}
+.text-big
+{
+    font-size: 24px;
+}
+
+.text-dark
+{
+    color: black;
+}
+
+.bg-nav-white
+{
+    background-color: #FFEFD5;
+}
+
+
+.index-text
+{
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.btn-form
+{
+    font-size: 20px;
+}
+
+.vorteile
+{
+    display: block;
+    width: 30px;
+    height: 160px;
+    padding-top: 25px;
+    border: 1px solid black;
+    background: transparent;
+    opacity: 30%;
+    border-radius: 10px;
+}
+
+.bg-image-top
+{
+    background-image: url("images/title.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.MultiCarousel
+{
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.MultiCarousel .MultiCarousel-inner
+{
+    transition: 1s ease all;
+    float: left;
+    border: 1px solid black;
+}
+
+.MultiCarousel .MultiCarousel-inner .item
+{
+    float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div
+{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background: f1f1f1;
+    color: #666;
+
+}
