@@ -7,7 +7,7 @@ if(isset($_POST['email'])) {
  
     function died($error) {
         // your error code can go here
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
+        echo "Es tut uns leid, jedoch sind einige Fehler aufgetreten.";
         echo "These errors appear below.<br /><br />";
         echo $error."<br /><br />";
         echo "Please go back and fix these errors.<br /><br />";
@@ -76,7 +76,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- include your own success html here -->
 
-Your message was sent
+Vielen Dank für Ihre Nachricht.
  
 <?php
  
