@@ -11,6 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/contacform.php"></script>
     <link href="style/style.css" rel="stylesheet">
     <link href="style/styletest.css" rel="stylesheet">
 </head>
@@ -70,7 +71,7 @@
         <div class="text-center">
             <div class="dark-bg">
                 <h3>Nachricht schreiben</h3>
-                <form class="contactform quote" method="POST" action="scripts/sendContactMail.php">
+                <form class="contactform quote" method="POST" action="scripts/contactform.php">
                     <div>
                         <label for="name">Name</label><br>
                         <input type="text" placeholder=" Name" maxlength="50">
@@ -83,7 +84,7 @@
                         <label name="comment">Nachricht</label><br>
                         <textarea placeholder=" Nachricht . . ." cols="30" rows="10"></textarea>
                     </div>
-                    <input class="btn btn-primary btn-form" type="submit" value="Senden">
+                    <button class="btn btn-primary btn-form" type="submit" name="submit">Senden</button>
                 </form>
             </div>
         </div>
