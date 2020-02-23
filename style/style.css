@@ -1,6 +1,17 @@
-.abstand
+.text
 {
-    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img_en
+{
+    width: 35px;
+    height: 35px;
+}
+.img_ger
+{
+    width: 35px;
+    height: 23px;
 }
 
 .text-large
@@ -35,6 +46,11 @@
     font-size: 20px;
 }
 
+.active
+{
+    text-decoration: underline;
+}
+
 .vorteile
 {
     display: block;
@@ -47,6 +63,46 @@
     border-radius: 10px;
 }
 
+.startseite
+{
+    background-image: url("../images/background-example1.jpg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.service_picture
+{
+    background-image: url("../images/service_pic.jpg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.auto_height
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.ptext {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 100px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+
+  .ptext .trans {
+    background-color: #111;
+    color: #fff;
+    padding: 40px;
+    background-color: transparent;
+  }
+
 .bg-image-top
 {
     background-image: url("images/title.jpg");
@@ -56,32 +112,124 @@
     background-size: cover;
 }
 
-.MultiCarousel
-{
-    float: left;
-    overflow: hidden;
-    padding: 15px;
-    width: 100%;
-    position: relative;
-}
-
-.MultiCarousel .MultiCarousel-inner
-{
-    transition: 1s ease all;
-    float: left;
-    border: 1px solid black;
-}
-
-.MultiCarousel .MultiCarousel-inner .item
-{
-    float: left;
-}
-.MultiCarousel .MultiCarousel-inner .item > div
+.service_text2
 {
     text-align: center;
-    padding: 10px;
     margin: 10px;
-    background: f1f1f1;
-    color: #666;
+    font-size: 16px;
+    height: 15vh;
+    display: flex;
+}
 
+.socialmedia
+    {
+        font-size: 32px;
+        padding-left: 5px;
+        padding-left: 5px;
+    }
+
+.arrow_btn
+{
+    color: black;
+    font-size: 20px;
+}
+
+.carousel-item.active, .carousel-item-next, .carousel-item-prev
+{
+  display: block;
+  text-decoration: none;
+}
+.carousel-inner
+{
+  min-height: 300px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #FFEFD5;
+}
+
+.black_border
+{
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+black_border:hover
+{
+    color: white;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .ptext
+    {
+        position: absolute;
+        width: 100;
+        text-align: center;
+        color: #000;
+        text-transform: none;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .ptext .trans
+    {
+        padding: 5px;
+    }
+
+    .caption .socialmedia
+    {
+        font-size: 24px;
+    }
+
+    .aboutus_text
+    {
+        font-size: 16px;
+        display: flex;
+    }
+
+    .contactform
+    {
+        width: 100%;
+    }
+    
+    .startseite
+    {
+        background-size: cover;
+    }
+
+    .footer_title
+    {
+        font-size: 16px;
+    }
+    .footer_text
+    {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 430px)
+{
+    .footer_title
+    {
+        font-size: 20px;
+    }
+    .footer_text
+    {
+        font-size: 16px;
+    }
+    .phone_hidden
+    {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+    .service_text .service_text2
+    {
+        font-size: 16px;
+    }
+    .arrow_btn
+    {
+        margin-left: 50%;
+    }
 }

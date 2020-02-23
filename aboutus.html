@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kitaplatzhilfe24</title>
+    <title>Kitaplatzhilfe24 Über uns</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="scripts/scripts.js"></script>
     <link href="style/style.css" rel="stylesheet">
     <link href="style/styletest.css" rel="stylesheet">
 </head>
@@ -26,13 +27,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
+                        <a href="aboutus_en.html"><img class="img_en" src="./images/uk_icon.png" alt="UK Flag"></a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-dark" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="service.html">Service</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link text-dark" href="aboutus.html">Über uns</a>
                     </li>
                     <li class="nav-item">
@@ -52,27 +56,183 @@
                 <h1 class="display-4">Was uns ausmacht</h1>
             </div>
             <hr>
+
             <div class="col-12">
-                <h2>Das Unternehmen</h2>
-                <p class="lead">
-                    Kitaplatzhilfe24 ist ein Dienstleistungsunternehmen, welches im Jahr 2019 mit dem Ziel gegründet wurde, (werdenden)
-                    Eltern bei der Suche nach einem Kitaplatz in der Umgebung weiterzuhelfen und den Erstkontakt zu erleichtern.
-                </p>
+                <div id="carouselContent" class="carousel slide" data-ride="carousel" data-interval="8000">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item text-center p-4 active">
+                            <h2 class="caption">Unser Ziel</h3>
+                            <p class="lead aboutus_text">
+                                Unsere Vision ist die Suche nach einem Kitaplatz einfach und schnell zu gestalten,
+                                in dem wir alle Angebote in der Nähe auf einem Blick für sie sichtbar machen.
+                                <br>
+
+                            </p>
+                        </div>
+                        <div class="carousel-item text-center p-4">
+                            <h2 class="caption">Story</h2>
+                            <p class="lead aboutus_text">
+                                Jahrelang hörte man in den Medien,
+                                dass Eltern keinen Kitaplatz für Ihre Kinder finden und somit auch
+                                nicht zur Arbeit gehen können.
+                                <br>
+                                Da alleine die Suche schon kompliziert ist, entstand die Idee zu Kitaplatzhilfe24,
+                                ein Portal, in dem alle Kitaplätze in der Nähe übersichtlich aufgelistet sind.
+                            </p>
+                        </div>
+                        <div class="carousel-item text-center p-4">
+                            <h2 class="caption">Das sagen unsere Kunden</h2>
+                            <p class="lead aboutus_text">
+                                "Durch Kitaplatzhilfe24 hatte ich einen direkten Überblick über alle
+                                Kitas in meiner Umgebung ohne selbst suchen zu müssen." 
+                                <br>
+                                - Marvin D. 
+                                <br> <br>
+                                "Auf den Seiten der Kindertagesstätten fand ich oft veraltete Informationen und meistens auch
+                                kein Anmeldeformular. Mit Kitaplatzhilfe24 hatte ich dieses Problem nun nicht mehr." 
+                                <br>
+                                - Jan Z.
+                            </p>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
+
         </div>
     </div>
     
     <hr>
 
-    <!--- Footer --->
+    <!-- Footer -->
 
-    <div class="container-fluid padding">
-        <div class="col-12">
-            <hr class="light100">
-            <h5>&copy; Kitaplatzhilfe24.de - Kitaplatzhilfe24.com</h5>
+    <footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mt-md-0 mt-3 footer_text phone_hidden">
+
+            <!-- Content -->
+            <h5 class="text-uppercase footer_title">Kph24</h5>
+            <br>
+            <p>Die einfache Suche nach einem Kitaplatz.</p>
+
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3 phone_hidden">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-md-0 mb-3 footer_text phone_hidden">
+
+            <!-- Links -->
+            <h5 class="text-uppercase footer_title">Entdecken</h5>
+
+            <ul class="list-unstyled">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="service.html">Service</a>
+            </li>
+            <li>
+                <a href="aboutus.html">Über uns</a>
+            </li>
+            <li>
+                <a href="contact.html">Kontakt</a>
+            </li>
+            <li>
+                <a href="contact.html">Newsletter</a>
+            </li>
+            </ul>
+
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3 phone_hidden">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-md-0 mb-3 footer_text phone_hidden">
+            <!-- Links -->
+            <h5 class="text-uppercase footer_title">Standort</h5>
+            <p>
+                Hessen
+                <br>
+                Beispielstraße 36
+                <br>
+                Frankfurt am Main, DE 64392
+            </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-md-0 mb-3 footer_text">
+
+            <!-- Links -->
+            <h5 class="text-uppercase footer_title">Socialmedia</h5>
+
+            <ul class="list-unstyled">
+            <li>
+                <a href="#!"><i class="fab fa-instagram socialmedia"></i></a>
+            </li>
+            <li>
+                <a href="#!"><i class="fab fa-twitter-square socialmedia"></i></a>
+            </li>
+            <li>
+                <a href="#!"><i class="fab fa-facebook-square socialmedia"></i></a>
+            </li>
+            </ul>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-md-0 mb-3 footer_text">
+
+            <!-- Links -->
+            <h5 class="text-uppercase footer_title">Rechtliche Hinweise</h5>
+
+            <ul class="list-unstyled">
+            <li>
+                <a href="#!">Nutzungsbedienungen</a>
+            </li>
+            <li>
+                <a href="#!">Datenschutzrichtlinie</a>
+            </li>
+            <li>
+                <a href="#!">Impressum</a>
+            </li>
+            </ul>
+
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+    <!-- Grid column -->
+        <div class="col-md-2 mb-md-0 mb-3">
+            <button class="arrow_btn" onclick="topFunction()" id="goTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+        </div>
+        
         </div>
     </div>
 
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 footer_text">© 2018 Copyright:
+        <a href="index.html"> Kitaplatz24.com</a>
+    </div>
+    
+    </footer>
 
 </body>
 </html>

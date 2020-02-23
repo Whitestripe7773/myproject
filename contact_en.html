@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kitaplatzhilfe24 Kontakt</title>
+    <title>Kitaplatzhilfe24</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -20,7 +20,7 @@
 
      <nav class="navbar navbar-expand-md navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+            <a class="navbar-brand" href="index_en.html"><img src="images/logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
@@ -28,19 +28,19 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="contact_en.html"><img class="img_en" src="./images/uk_icon.png" alt="UK Flag"></a>
+                        <a href="contact.html"><img class="img_ger" src="./images/ger_icon.png" alt="German Flag"></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="index.html">Home</a>
+                        <a class="nav-link text-dark" href="index_en.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="service.html">Service</a>
+                        <a class="nav-link text-dark" href="service_en.html">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="aboutus.html">Über uns</a>
+                        <a class="nav-link text-dark" href="aboutus_en.html">About us</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link text-dark" href="contact.html">Kontakt</a>
+                        <a class="nav-link text-dark" href="contact_en.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -53,13 +53,13 @@
     <div class="container-fluid padding">
         <div class="row welcome text-center">
             <div class="col-12">
-                <h1 class="display-4">Kontakt</h1>
+                <h1 class="display-4">Contact</h1>
             </div>
             <hr>
             <div class="col-12">
                 <p class="lead">
-                    Sie haben noch Fragen oder möchten uns Feedback geben?<br>
-                    Hier können Sie uns kontaktieren
+                    Do you still have questions or want to give us feedback?<br>
+                    Here you can contact us
                 </p>
             </div>
         </div>
@@ -67,84 +67,32 @@
 
     <hr>
 
+    <aside>
         <div class="text-center">
             <div class="dark-bg">
-                <h3>Nachricht schreiben</h3>
-                <form class="contactform quote" method="POST" action="/scripts/sendContactMail.php">
+                <h3>Write a message</h3>
+                <form class="quote">
                     <div>
-                        <label for="name">Name</label><br>
-                        <input type="text" placeholder=" Name" maxlength="50">
+                        <label>Name</label><br>
+                        <input type="text" placeholder=" Name">
                     </div>
                     <div>
-                        <label for="email">Email</label><br>
-                        <input type="email" placeholder=" Email-Adresse" maxlength="50">
+                        <label>Email</label><br>
+                        <input type="email" placeholder=" Emailaddress">
                     </div>
                     <div>
-                        <label name="comment">Nachricht</label><br>
-                        <textarea placeholder=" Nachricht . . ." cols="30" rows="10"></textarea>
+                        <label>Message</label><br>
+                        <textarea placeholder=" Message . . ." cols="30" rows="10"></textarea>
                     </div>
-                    <button class="btn btn-primary btn-form" type="submit">Senden</button>
+                    <button class="btn btn-primary btn-form" type="submit">Send</button>
                 </form>
             </div>
         </div>
-
-        <!-- For Testing purpose
-
-    <form name="contactform" method="post" action="sendContactMail.php">
-        <table width="450px">
-        <tr>
-         <td valign="top">
-          <label for="first_name">First Name *</label>
-         </td>
-         <td valign="top">
-          <input  type="text" name="first_name" maxlength="50" size="30">
-         </td>
-        </tr>
-        <tr>
-         <td valign="top">
-          <label for="last_name">Last Name *</label>
-         </td>
-         <td valign="top">
-          <input  type="text" name="last_name" maxlength="50" size="30">
-         </td>
-        </tr>
-        <tr>
-         <td valign="top">
-          <label for="email">Email Address *</label>
-         </td>
-         <td valign="top">
-          <input  type="text" name="email" maxlength="80" size="30">
-         </td>
-        </tr>
-        <tr>
-         <td valign="top">
-          <label for="telephone">Telephone Number</label>
-         </td>
-         <td valign="top">
-          <input  type="text" name="telephone" maxlength="30" size="30">
-         </td>
-        </tr>
-        <tr>
-         <td valign="top">
-          <label for="comments">Comments *</label>
-         </td>
-         <td valign="top">
-          <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-         </td>
-        </tr>
-        <tr>
-         <td colspan="2" style="text-align:center">
-          <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
-         </td>
-        </tr>
-        </table>
-    </form>
-
-    -->
+    </aside>
 
     <hr>
 
-   <!-- Footer -->
+    <!-- Footer -->
 
     <footer class="page-footer font-small blue pt-4">
 
@@ -155,22 +103,22 @@
         <div class="row">
 
         <!-- Grid column -->
-        <div class="col-md-2 mt-md-0 mt-3 footer_text phone_hidden">
+        <div class="col-md-2 mt-md-0 mt-3 footer_text">
 
             <!-- Content -->
             <h5 class="text-uppercase footer_title">Kph24</h5>
             <br>
-            <p>Die einfache Suche nach einem Kitaplatz.</p>
+            <p>The easy way to find a daycare center space for your child.</p>
 
         </div>
 
-        <hr class="clearfix w-100 d-md-none pb-3 phone_hidden">
+        <hr class="clearfix w-100 d-md-none pb-3">
 
         <!-- Grid column -->
-        <div class="col-md-2 mb-md-0 mb-3 footer_text phone_hidden">
+        <div class="col-md-2 mb-md-0 mb-3 footer_text">
 
             <!-- Links -->
-            <h5 class="text-uppercase footer_title">Entdecken</h5>
+            <h5 class="text-uppercase footer_title">Explore</h5>
 
             <ul class="list-unstyled">
             <li>
@@ -180,10 +128,10 @@
                 <a href="service.html">Service</a>
             </li>
             <li>
-                <a href="aboutus.html">Über uns</a>
+                <a href="aboutus.html">About us</a>
             </li>
             <li>
-                <a href="contact.html">Kontakt</a>
+                <a href="contact.html">Concact</a>
             </li>
             <li>
                 <a href="contact.html">Newsletter</a>
@@ -192,18 +140,21 @@
 
         </div>
 
-        <hr class="clearfix w-100 d-md-none pb-3 phone_hidden">
+        <hr class="clearfix w-100 d-md-none pb-3">
 
         <!-- Grid column -->
-        <div class="col-md-2 mb-md-0 mb-3 footer_text phone_hidden">
+        <div class="col-md-2 mb-md-0 mb-3 footer_text">
             <!-- Links -->
-            <h5 class="text-uppercase footer_title">Standort</h5>
+            <h5 class="text-uppercase footer_title">Visit</h5>
+
             <p>
-                Hessen
+                Hesse
                 <br>
-                Beispielstraße 36
+                Examplestreet 36
                 <br>
-                Frankfurt am Main, DE 64392
+                64392 Frankfurt am Main
+                <br>
+                Germany
             </p>
         </div>
 
@@ -234,17 +185,17 @@
         <div class="col-md-2 mb-md-0 mb-3 footer_text">
 
             <!-- Links -->
-            <h5 class="text-uppercase footer_title">Rechtliche Hinweise</h5>
+            <h5 class="text-uppercase footer_title">Legal</h5>
 
             <ul class="list-unstyled">
             <li>
-                <a href="#!">Nutzungsbedienungen</a>
+                <a href="#!">Terms</a>
             </li>
             <li>
-                <a href="#!">Datenschutzrichtlinie</a>
+                <a href="#!">Privacy</a>
             </li>
             <li>
-                <a href="#!">Impressum</a>
+                <a href="#!">Legal Disclosure</a>
             </li>
             </ul>
 

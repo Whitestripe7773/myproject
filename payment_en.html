@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kitaplatzhilfe24 Bezahlungsvorgang</title>
+    <title>Kitaplatzhilfe24</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -20,7 +20,7 @@
 
      <nav class="navbar navbar-expand-md navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+            <a class="navbar-brand" href="index_en.html"><img src="images/logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
@@ -28,19 +28,19 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="payment_en.html"><img class="img_en" src="./images/uk_icon.png" alt="UK Flag"></a>
+                        <a href="payment.html"><img class="img_ger" src="./images/ger_icon.png" alt="German Flag"></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link text-dark" href="index.html">Home</a>
+                        <a class="nav-link text-dark" href="index_en.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="service.html">Service</a>
+                        <a class="nav-link text-dark" href="service_en.html">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="aboutus.html">Über uns</a>
+                        <a class="nav-link text-dark" href="aboutus_en.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="contact.html">Kontakt</a>
+                        <a class="nav-link text-dark" href="contact_en.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -54,49 +54,49 @@
       
               <div class="row">
                 <div class="col-50">
-                  <h3>Persönliche Daten</h3>
-                  <label for="fname"><i class="fa fa-user"></i> Vor- und Nachname</label>
+                  <h3>Personal Data</h3>
+                  <label for="fname"><i class="fa fa-user"></i> First- and Lastname</label>
                   <input type="text" id="fname" name="firstname" placeholder="John Fischer">
                   <label for="email"><i class="fa fa-envelope"></i> Email</label>
                   <input type="text" id="email" name="email" placeholder="john@example.com">
-                  <label for="adr"><i class="fas fa-address-card"></i> Adresse</label>
+                  <label for="adr"><i class="fas fa-address-card"></i> Address</label>
                   <input type="text" id="adr" name="address" placeholder="Frankfurterstraße 15a">
-                  <label for="city"><i class="fa fa-university"></i> Stadt</label>
+                  <label for="city"><i class="fa fa-university"></i> City</label>
                   <input type="text" id="city" name="city" placeholder="Berlin">
       
                   <div class="row">
                     <div class="col-50">
-                      <label for="state">Stadt</label>
+                      <label for="state">City</label>
                       <input type="text" id="state" name="state" placeholder="Frankfurt a. M.">
                     </div>
                     <div class="col-50">
-                      <label for="zip">Postleitzahl</label>
+                      <label for="zip">ZIP</label>
                       <input type="text" id="zip" name="zip" placeholder="10001">
                     </div>
                   </div>
                 </div>
       
                 <div class="col-50">
-                  <h3>Bezahlung</h3>
-                  <label for="fname">Akzeptierte Karten</label>
+                  <h3>Payment</h3>
+                  <label for="fname">Accepteed Cards</label>
                   <div class="icon-container">
                     <i class="fab fa-cc-visa" style="color:navy;"></i>
                     <i class="fab fa-cc-mastercard" style="color:red;"></i>
                   </div>
-                  <label for="cname">Name auf Karte</label>
+                  <label for="cname">Name on card</label>
                   <input type="text" id="cname" name="cardname" placeholder="John Leo Fischer">
-                  <label for="ccnum">Kreditkartennummer</label>
+                  <label for="ccnum">Creditcardnumber</label>
                   <input type="text" id="ccnum" name="cardnumber" placeholder="5555-5555-5555-5555">
-                  <label for="expmonth">Auslaufsmonat</label>
+                  <label for="expmonth">Expiry month</label>
                   <input type="text" id="expmonth" name="expmonth" placeholder="September">
       
                   <div class="row">
                     <div class="col-50">
-                      <label for="expyear">Auslaufsjahr</label>
+                      <label for="expyear">Expiry year</label>
                       <input type="text" id="expyear" name="expyear" placeholder="2021">
                     </div>
                     <div class="col-50">
-                      <label for="cvv">Kartenprüfnummer</label>
+                      <label for="cvv">CVV</label>
                       <input type="text" id="cvv" name="cvv" placeholder="352">
                     </div>
                   </div>
@@ -104,31 +104,31 @@
       
               </div>
               <label>
-                <input type="checkbox" checked="checked" name="readAGB"> Ich bin mit den AGBs einverstanden und zahle hiermit den Betrag.
+                <input type="checkbox" checked="checked" name="readAGB"> I agree with the terms of condition and pay the mentioned amount.
               </label>
-              <input type="submit" value="Bezahlung abschließen" class="btn">
+              <input type="submit" value="Complete Payment" class="btn">
             </form>
           </div>
         </div>
       
         <div class="col-25 cart-float">
           <div class="container">
-            <h4>Einkaufswagen 
+            <h4>Cart 
               <span class="price" style="color:black">
                 <i class="fa fa-shopping-cart"></i> 
                 <b>1</b>
               </span>
             </h4>
-            <p><a href="service.html">Hilfe bei Erstkontakt</a> <span class="price">€29,99</span></p>
+            <p><a href="service.html">Help with first contact</a> <span class="price">€29,99</span></p>
             <hr>
-            <p>Betrag <span class="price" style="color:black"><b>€29,99</b></span></p>
+            <p>Amount <span class="price" style="color:black"><b>€29,99</b></span></p>
           </div>
         </div>
     </div>
 
     <hr>
 
-  <!-- Footer -->
+    <!-- Footer -->
 
     <footer class="page-footer font-small blue pt-4">
 
@@ -139,22 +139,22 @@
         <div class="row">
 
         <!-- Grid column -->
-        <div class="col-md-2 mt-md-0 mt-3 footer_text phone_hidden">
+        <div class="col-md-2 mt-md-0 mt-3 footer_text">
 
             <!-- Content -->
             <h5 class="text-uppercase footer_title">Kph24</h5>
             <br>
-            <p>Die einfache Suche nach einem Kitaplatz.</p>
+            <p>The easy way to find a daycare center space for your child.</p>
 
         </div>
 
-        <hr class="clearfix w-100 d-md-none pb-3 phone_hidden">
+        <hr class="clearfix w-100 d-md-none pb-3">
 
         <!-- Grid column -->
-        <div class="col-md-2 mb-md-0 mb-3 footer_text phone_hidden">
+        <div class="col-md-2 mb-md-0 mb-3 footer_text">
 
             <!-- Links -->
-            <h5 class="text-uppercase footer_title">Entdecken</h5>
+            <h5 class="text-uppercase footer_title">Explore</h5>
 
             <ul class="list-unstyled">
             <li>
@@ -164,10 +164,10 @@
                 <a href="service.html">Service</a>
             </li>
             <li>
-                <a href="aboutus.html">Über uns</a>
+                <a href="aboutus.html">About us</a>
             </li>
             <li>
-                <a href="contact.html">Kontakt</a>
+                <a href="contact.html">Concact</a>
             </li>
             <li>
                 <a href="contact.html">Newsletter</a>
@@ -176,18 +176,21 @@
 
         </div>
 
-        <hr class="clearfix w-100 d-md-none pb-3 phone_hidden">
+        <hr class="clearfix w-100 d-md-none pb-3">
 
         <!-- Grid column -->
-        <div class="col-md-2 mb-md-0 mb-3 footer_text phone_hidden">
+        <div class="col-md-2 mb-md-0 mb-3 footer_text">
             <!-- Links -->
-            <h5 class="text-uppercase footer_title">Standort</h5>
+            <h5 class="text-uppercase footer_title">Visit</h5>
+
             <p>
-                Hessen
+                Hesse
                 <br>
-                Beispielstraße 36
+                Examplestreet 36
                 <br>
-                Frankfurt am Main, DE 64392
+                64392 Frankfurt am Main
+                <br>
+                Germany
             </p>
         </div>
 
@@ -218,17 +221,17 @@
         <div class="col-md-2 mb-md-0 mb-3 footer_text">
 
             <!-- Links -->
-            <h5 class="text-uppercase footer_title">Rechtliche Hinweise</h5>
+            <h5 class="text-uppercase footer_title">Legal</h5>
 
             <ul class="list-unstyled">
             <li>
-                <a href="#!">Nutzungsbedienungen</a>
+                <a href="#!">Terms</a>
             </li>
             <li>
-                <a href="#!">Datenschutzrichtlinie</a>
+                <a href="#!">Privacy</a>
             </li>
             <li>
-                <a href="#!">Impressum</a>
+                <a href="#!">Legal Disclosure</a>
             </li>
             </ul>
 
